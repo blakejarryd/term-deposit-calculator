@@ -22,7 +22,7 @@ Clone the repository and cd into the directory. Then run the following command.
 
 *Note: '-I.' in the command is to tell Ruby the required files (requied in run_calculator.rb) are in the current directory.*
 
-**User Inputs**
+## User Inputs
 | Input | Accepted values | Unit |
 | ----------- | ----- | ----------- |
 | Investment ammount | Positive integers | $ |
@@ -32,13 +32,14 @@ Clone the repository and cd into the directory. Then run the following command.
 
 *Note: Any invalid input will result in the user being re-prompted for the same information.*
 
-**The Calculation**
+## The Calculation
 The following compound interest formula is used to calculate the Term Deposit return.
+
 `ending balance = starting balance * (1 * interest_rate_per_period)^n_periods`
 
-**Unit Test**
+## Unit Test
 The unit tests file can be run with the following command. 
 
 `$ ruby -I. calculator_tests.rb`
 
-*Note: Currently there is only coverage for the calculator itself and not the user input functionality. 
+*Note: Currently there is only coverage for the calculator itself and not the user input functionality.*
