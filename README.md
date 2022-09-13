@@ -12,7 +12,7 @@ A calculator that takes in the 4 I's of term deposit compution and calculates an
 This is a Command Line Application written in Ruby. Therefore to run the calculator you will need to have Ruby installed on your machine.
 
 You can follow the instructions here to get the latest Ruby version.
-https://www.ruby-lang.org/en/downloads/
+https://www.ruby-lang.org/en/downloads/ 
 
 
 ## Running the calculator
@@ -30,7 +30,7 @@ Clone the repository and cd into the directory. Then run the following command.
 | Investment term | Positive integers | months |
 | Interest payment frequency | 'Monthly', 'Quarterly', 'Annually', 'Maturity' (case insensitive) | time period |
 
-*Note: Any invalid input will result in the user being re-prompted for the same information.*
+*Note: An invalid input will result in the user being re-prompted for the same information.*
 
 ## The Calculation
 The following compound interest formula is used to calculate the Term Deposit return.
